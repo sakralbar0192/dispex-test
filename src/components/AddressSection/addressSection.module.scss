@@ -1,0 +1,22 @@
+.addressSection {
+    p {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.addressSection__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.addressSection__bigField {
+    width: 300px;
+    margin: 10px;
+}
+
+.addressSection__smallField {
+    width: 100px;
+    margin: 10px;
+} 

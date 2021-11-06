@@ -1,0 +1,29 @@
+.residentsSection {
+    p {
+        text-align: center;
+    }
+}
+
+.residentsSection__residentsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 960px;    
+}
+
+.residentSection__residentItem {
+    margin: 10px;
+}
+
+.residentSection__adressWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 940px;
+    margin: 0 0 30px;
+    
+    p {
+        margin: 0;
+    }
+}

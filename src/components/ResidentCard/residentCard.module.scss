@@ -1,0 +1,18 @@
+.residentCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 170px;
+}
+
+.residentCard__description {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        display: inline-block;
+        max-width: 180px;
+        margin: 0 0 0 10px;
+    }
+}
